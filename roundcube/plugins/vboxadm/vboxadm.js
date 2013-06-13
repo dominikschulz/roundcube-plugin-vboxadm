@@ -12,7 +12,7 @@ if (window.rcmail) {
 							'tablink tablinkvboxadm');
 			var button = $('<a>').attr('href',
 					rcmail.env.comm_path + '&_action=plugin.vboxadm')
-					.attr('style', 'padding-left:5px;').html(
+					.attr('style', 'padding-left:35px;').html(
 							rcmail.gettext('accountadmin', 'vboxadm'))
 					.appendTo(tab);
 			button.bind('click', function(e) {
