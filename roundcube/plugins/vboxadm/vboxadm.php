@@ -560,6 +560,7 @@ class vboxadm extends rcube_plugin
 		$out = $rcmail->output->form_tag(
 			array(
 				'id' => 'vboxadmform',
+				'class' => 'scroller',
 				'name' => 'vboxadmform',
 				'method' => 'post',
 				'action' => './?_task=settings&_action=plugin.vboxadm-save'
